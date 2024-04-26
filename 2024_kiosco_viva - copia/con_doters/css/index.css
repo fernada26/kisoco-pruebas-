@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.contenedor-pantalla {
+    width: 100%;
+    max-width: 1080px;
+}
+.encabezado-logo {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.encabezado-logo img {
+    width: 500px;
+}
+.row1 {
+/*     background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.card1 img {
+    width: 380px;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 10px 20px #103221;
+}
+.new-button {
+    background-color: #103221;
+    width: 250px;
+    height: 45px;
+    margin: 30px 20px;
+    border: 1px solid #103221;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0px 3px 10px #113222;
+    cursor: pointer;
+}
+.rutas {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.rutas button {
+    width: 550px;
+    height: 60px;
+    border: 1px solid #103221;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 0px 10px 10px #113222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.rutas img {
+    width: 60px;
+}
+
+  .nuestros-destinos {
+    text-align: center;
+  
+  }
+
+  .w3-modal {
+    padding-top: 0px!important;
+  }
+  .w3-light-grey {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .w3-button {
+    font-size: 30px;
+  }
+  .w3-button:hover{
+    background-color: #fff;
+  }
+  .w3-border-bottom {
+    background-color: #fff;
+  }
+  .w3-container {
+    background-color: #fff;
+  }
+  html, body {
+    font-size: 25px!important;
+  }
+  span.w3-display-topright {
+    font-size: 35px!important;
+    font-weight: 600;
+  }
+
+  @media (min-width: 993px) {
+    .w3-modal-content {
+        width: 100%!important;
+        height: 100%!important;
+        background-color: #e3e0e0!important;
+    }
+  }
+

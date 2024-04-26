@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion-item {
+    width: 70%;
+    margin: auto;
+}  
+.accordion-header {
+    width: 100%;
+    margin: auto;
+    
+}
+.container-dp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.datos-personales {
+    position: relative;
+    margin: 50px 20px 10px 20px;
+}
+.datos-personales input {
+    width: 330px;
+    height: 60px;
+    font-size: 18px;
+    padding: 0 15px;
+    /* border: 1px solid #000; */
+    background: #fff;
+    color: #103221;
+    justify-content: space-between;
+}
+.datos-personales label {
+    position: absolute;
+    top: 20%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #103221;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: center;
+    width: 100%!important;
+  }
+
+/* .accordion-header{
+    border: none !important;
+} */
+
+.datos-personales-pasajero {
+    text-align: justify;
+    padding: 20px;
+}
+button.accordion-button {
+    width: 100%!important;
+  }
+
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+.accordion-item {
+    background-color: transparent!important;
+}
+input:focus ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background-color: #fff;
+}
+
+.accordion-item2 {
+    width: 100%;
+}
+
+
+.formulario-sexo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hombre {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 30 0px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+.hombre input {
+    margin: 10px 0px 10px 40px;
+}
+.mujer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 30 0px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+.mujer input {
+    margin: 10px 0px 10px 40px;
+}
+.combo-paises {
+    width: 70%;
+}
+option {
+    width: 50%;
+}
+
+select {
+    word-wrap: normal;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    color: #103221;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  .text-container {
+    margin-left: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+
+/* input {
+    width: 500px;
+    height: 80px;
+} */
